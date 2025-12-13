@@ -9,6 +9,7 @@ console.log(x); // 2
 // const is also block scoped and cannot be reassigned
 const y = 5;
 // y = 10; // This will throw an error
+
 {
     const y = 10;
     console.log(y); // 10
