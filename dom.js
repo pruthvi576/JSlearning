@@ -1,4 +1,4 @@
-// selecting methods in the DOM
+// selecting methods in the DOM (Document Object Model  )
 let element = document.getElementById("my");
 console.log(element);
 
