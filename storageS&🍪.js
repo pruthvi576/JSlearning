@@ -15,7 +15,7 @@ localStorage.setItem("name", "Jane");
 // we can set a value the same way as update anything in local storage 
 
 // clearing all data from local storage
-localStorage.clear();
+// localStorage.clear(); // Commented out to prevent clearing stored theme
 
 // session storage
 sessionStorage.setItem("sessionName", "Session User");
