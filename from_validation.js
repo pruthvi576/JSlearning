@@ -33,3 +33,18 @@ nameInput.addEventListener("input", function(d) {
     }
 });
 
+// regex for email validation
+function checkEmail() {
+            // Email regex pattern
+            let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // Get input value
+            let email = document.getElementById("email").value;
+
+            // Test email against regex
+            if (emailRegex.test(email)) {
+                document.getElementById("result").innerText = "Valid email";
+            } else {
+                document.getElementById("result").innerText = "Invalid email";
+            }
+        }
