@@ -63,3 +63,10 @@ innerDiv.addEventListener("click", function(event) {
     event.stopPropagation(); // Stop event bubbling
 } );
 
+// event delegation
+document.body.addEventListener("click", function(event) {
+    if (event.target.classList.contains("delegated-button")) {
+        console.log("Delegated Button Clicked:", event.target);
+    }
+} );
+
