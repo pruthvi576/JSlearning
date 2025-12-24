@@ -1,0 +1,20 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of JavaScript fundamentals, concepts, and practical examples. This repository contains all the essential topics for mastering JavaScript from beginner to advanced level.",
+  "homepage": "https://github.com/pruthvi576/JSlearning#readme",
+  "bugs": {
+    "url": "https://github.com/pruthvi576/JSlearning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruthvi576/JSlearning.git"
+  },
+  "license": "ISC",
+  "author": "Pruthvi",
+  "type": "commonjs",
+  "main": "API+HTTP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
